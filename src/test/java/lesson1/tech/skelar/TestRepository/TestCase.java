@@ -1,4 +1,4 @@
-package tech.skelar.TestRepository;
+package lesson1.tech.skelar.TestRepository;
 
 import com.github.javafaker.Faker;
 

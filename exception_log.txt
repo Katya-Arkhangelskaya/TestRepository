@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-25T17:52:58.168222Z</date>
+  <millis>1703526778168</millis>
+  <nanos>222000</nanos>
+  <sequence>0</sequence>
+  <logger>lesson8.tech.skelar.TestRepository.MyHomework</logger>
+  <level>SEVERE</level>
+  <class>lesson8.tech.skelar.TestRepository.MyHomework</class>
+  <method>logException</method>
+  <thread>1</thread>
+  <message>Exception occurred</message>
+  <exception>
+    <message>java.io.FileNotFoundException: nonexistent_file.txt (No such file or directory)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>216</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>111</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>lesson8.tech.skelar.TestRepository.MyHomework</class>
+      <method>processFile</method>
+      <line>40</line>
+    </frame>
+    <frame>
+      <class>lesson8.tech.skelar.TestRepository.MyHomework</class>
+      <method>main</method>
+      <line>17</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-12-25T17:52:58.204874Z</date>
+  <millis>1703526778204</millis>
+  <nanos>874000</nanos>
+  <sequence>1</sequence>
+  <logger>lesson8.tech.skelar.TestRepository.MyHomework</logger>
+  <level>SEVERE</level>
+  <class>lesson8.tech.skelar.TestRepository.MyHomework</class>
+  <method>logException</method>
+  <thread>1</thread>
+  <message>Exception occurred</message>
+  <exception>
+    <message>java.lang.NullPointerException: Cannot invoke "String.length()" because "str" is null</message>
+    <frame>
+      <class>lesson8.tech.skelar.TestRepository.MyHomework</class>
+      <method>triggerUncheckedException</method>
+      <line>52</line>
+    </frame>
+    <frame>
+      <class>lesson8.tech.skelar.TestRepository.MyHomework</class>
+      <method>main</method>
+      <line>24</line>
+    </frame>
+  </exception>
+</record>
+</log>

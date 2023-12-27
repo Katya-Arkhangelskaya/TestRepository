@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-12-25T17:52:58.168222Z</date>
-  <millis>1703526778168</millis>
-  <nanos>222000</nanos>
+  <date>2023-12-25T18:26:19.034179Z</date>
+  <millis>1703528779034</millis>
+  <nanos>179000</nanos>
   <sequence>0</sequence>
   <logger>lesson8.tech.skelar.TestRepository.MyHomework</logger>
   <level>SEVERE</level>
@@ -51,9 +51,9 @@
   </exception>
 </record>
 <record>
-  <date>2023-12-25T17:52:58.204874Z</date>
-  <millis>1703526778204</millis>
-  <nanos>874000</nanos>
+  <date>2023-12-25T18:26:19.073126Z</date>
+  <millis>1703528779073</millis>
+  <nanos>126000</nanos>
   <sequence>1</sequence>
   <logger>lesson8.tech.skelar.TestRepository.MyHomework</logger>
   <level>SEVERE</level>
